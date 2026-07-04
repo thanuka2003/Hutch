@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Z Pinger",
+  "version": "1.0.0",
+  "description": "A powerful network pinger tool for PC, inspired by the Z Pinger mobile app.",
+  "permissions": [
+    "storage",
+    "notifications",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon128.png",
+      "48": "icon48.png",
+      "16": "icon16.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  }
+}
